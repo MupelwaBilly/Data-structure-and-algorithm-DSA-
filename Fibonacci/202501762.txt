@@ -1,0 +1,18 @@
+START
+INPUT number n
+
+IF n <= 0 THEN
+    PRINT "Invalid input"
+ELSE
+    SET a = 0, b = 1
+    PRINT a, b
+
+    FOR i FROM 2 TO n-1 DO
+        c = a + b
+        PRINT c
+        a = b
+        b = c
+    END FOR
+END IF
+
+END

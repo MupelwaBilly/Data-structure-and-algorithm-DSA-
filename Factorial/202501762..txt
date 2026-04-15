@@ -1,0 +1,14 @@
+START
+INPUT number n
+SET factorial = 1
+
+IF n < 0 THEN
+    PRINT "Factorial not defined"
+ELSE
+    FOR i FROM 1 TO n DO
+        factorial = factorial * i
+    END FOR
+    PRINT factorial
+END IF
+
+END
