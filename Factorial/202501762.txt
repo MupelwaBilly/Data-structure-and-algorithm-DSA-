@@ -1,6 +1,6 @@
 def factorial(n):
     if n < 0:
-        return "Factorial not defined for negative numbers"
+        return "Factorial cannot defined for negative numbers"
     
     result = 1
     for i in range(1, n + 1):

@@ -11,6 +11,7 @@ def fibonacci(n):
     
     return sequence
 
+print("Fibonacci Calculator")
 num = int(input("Enter a number: "))
 
 print("Fibonacci sequence:", fibonacci(num))
